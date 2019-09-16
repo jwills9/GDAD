@@ -1,0 +1,140 @@
+rnk	team	 rating 	  record  	  SOS: rank  	  top 25  wins	  top 50  wins	 best game
+1. 	Clemson    	1.006750	13-0	0.584712: 20	2	9	W: #15 Texas A&M
+2. 	Notre Dame    	1.001710	12-0	0.585330: 19	2	6	W: #8 Michigan
+3. 	Alabama    	0.995459	13-0	0.571684: 28	4	7	W: #5 Georgia
+4. 	Oklahoma    	0.914265	12-1	0.554921: 42	3	4	W: #21 Army
+5. 	Georgia    	0.911318	11-2	0.628443: 5	3	7	W: #10 Kentucky
+6. 	Ohio State    	0.900335	12-1	0.538847: 51	2	4	W: #8 Michigan
+7. 	UCF    	0.891148	12-0	0.456340: 93	1	3	W: #19 Cincinnati
+8. 	Michigan    	0.865125	10-2	0.592645: 13	1	3	W: #14 Penn St
+9. 	LSU    	0.788037	9-3	0.586043: 18	1	4	W: #5 Georgia
+10. 	Kentucky    	0.782613	9-3	0.579715: 24	2	5	W: #13 Florida
+11. 	Washington State    	0.773559	10-2	0.485819: 79	1	3	W: #24 Utah
+12. 	Washington    	0.772805	10-3	0.545545: 45	3	5	W: #11 Washington St
+13. 	Florida    	0.771505	9-3	0.566755: 33	1	4	W: #9 LSU
+14. 	Penn State    	0.765918	9-3	0.560238: 37	1	3	W: #18 Appalachian St
+15. 	Texas A&M    	0.760699	8-4	0.637483: 3	2	4	W: #9 LSU
+16. 	Fresno State    	0.751056	11-2	0.443527: 104	1	1	W: #22 Boise St
+17. 	Syracuse    	0.748163	9-3	0.539523: 50	0	2	W: #28 NC State
+18. 	Appalachian State    	0.740490	10-2	0.447238: 101	0	2	W: #34 Troy
+19. 	Cincinnati    	0.737975	10-2	0.444304: 103	0	0	W: #52 Ohio
+20. 	Missouri    	0.730836	8-4	0.602642: 11	1	2	W: #13 Florida
+21. 	Army    	0.727918	9-2	0.451176: 99	0	1	W: #39 Buffalo
+22. 	Boise State    	0.725600	10-3	0.491077: 77	1	3	W: #16 Fresno St
+23. 	West Virginia    	0.724970	8-3	0.538601: 52	1	1	W: #25 Texas
+24. 	Utah    	0.720834	9-4	0.562501: 36	0	3	W: #27 Stanford
+25. 	Texas    	0.718872	9-4	0.560237: 38	1	2	W: #4 Oklahoma
+26. 	Mississippi State    	0.718787	8-4	0.588584: 16	1	2	W: #15 Texas A&M
+27. 	Stanford    	0.711397	8-4	0.579963: 23	0	2	W: #42 Oregon
+28. 	NC State    	0.708944	9-3	0.493768: 71	0	1	W: #43 Boston Coll
+29. 	Northwestern    	0.677759	8-5	0.589722: 15	0	2	W: #35 Iowa
+30. 	South Carolina    	0.676056	7-5	0.622065: 7	1	2	W: #20 Missouri
+31. 	Georgia Southern    	0.672886	9-3	0.451700: 98	1	2	W: #18 Appalachian St
+32. 	Utah State    	0.669388	10-2	0.364285: 137	0	0	W: #70 Hawaii
+33. 	Iowa State   	0.665317	8-4	0.526204: 58	1	1	W: #23 West Virginia
+34. 	Troy    	0.662562	9-3	0.439656: 107	0	1	W: #31 Georgia Southern
+35. 	Iowa    	0.661489	8-4	0.521737: 61	0	2	W: #33 Iowa St
+36. 	Auburn    	0.656565	7-5	0.599326: 12	2	2	W: #12 Washington
+37. 	Pittsburgh    	0.653124	7-6	0.638220: 2	1	3	W: #17 Syracuse
+38. 	UAB    	0.644556	10-3	0.397564: 128	0	0	W: #54 Middle Tenn St
+39. 	Buffalo    	0.635875	10-3	0.387548: 130	0	1	W: #44 Temple
+40. 	Duke    	0.631503	7-5	0.570086: 31	1	4	W: #21 Army
+41. 	Michigan State    	0.627558	7-5	0.565484: 34	1	2	W: #14 Penn St
+42. 	Oregon    	0.623600	8-4	0.477533: 85	1	2	W: #12 Washington
+43. 	Boston Coll    	0.622165	7-5	0.559193: 39	0	2	W: #44 Temple
+44. 	Temple    	0.620672	8-4	0.474117: 88	1	1	W: #19 Cincinnati
+45. 	Vanderbilt    	0.606330	6-6	0.624051: 6	0	0	W: #54 Middle Tenn St
+46. 	Georgia Tech    	0.603313	7-5	0.537199: 55	0	1	W: #47 Miami (FL)
+47. 	Miami (FL)    	0.593368	7-5	0.525595: 59	0	1	W: #37 Pittsburgh
+48. 	Northern Illinois    	0.592442	8-5	0.491280: 75	0	1	W: #39 Buffalo
+49. 	Arizona State    	0.586875	7-5	0.518020: 63	1	2	W: #24 Utah
+50. 	Arkansas State    	0.581107	8-4	0.427958: 117	0	0	W: #85 LA Monroe
+51. 	Purdue    	0.578729	6-6	0.591850: 14	1	3	W: #6 Ohio St
+52. 	Ohio    	0.572438	8-4	0.417844: 122	0	1	W: #39 Buffalo
+53. 	Wisconsin    	0.571171	7-5	0.499699: 67	0	1	W: #35 Iowa
+54. 	Middle Tennessee    	0.567955	8-5	0.463026: 89	0	1	W: #38 UAB
+55. 	Wake Forest    	0.565744	6-6	0.576702: 25	0	2	W: #28 NC State
+56. 	Virginia    	0.564474	7-5	0.491886: 74	0	2	W: #40 Duke
+57. 	Marshall    	0.557667	8-4	0.400612: 127	0	0	W: #74 Florida Intl
+58. 	North Texas    	0.554911	9-3	0.314062: 139	0	0	W: #90 Southern Miss
+59. 	California    	0.551153	7-5	0.476345: 86	1	1	W: #12 Washington
+60. 	Memphis    	0.548954	8-5	0.441101: 106	0	0	W: #65 Houston
+61. 	TCU    	0.548881	6-6	0.557028: 40	0	1	W: #33 Iowa St
+62. 	Minnesota    	0.543066	6-6	0.550243: 43	1	1	W: #16 Fresno St
+63. 	Oklahoma State    	0.542180	6-6	0.549210: 44	3	3	W: #22 Boise St
+64. 	Florida St    	0.540095	5-7	0.630110: 4	0	2	W: #43 Boston Coll
+65. 	Houston    	0.535382	8-4	0.374613: 135	0	0	W: #72 South Florida
+66. 	San Diego State    	0.533179	7-5	0.455375: 94	1	2	W: #22 Boise St
+67. 	Virginia Tech    	0.531966	6-6	0.537294: 54	0	1	W: #40 Duke
+68. 	Louisiana Lafayette    	0.528642	7-6	0.494587: 70	0	1	W: #50 Arkansas St
+69. 	Tennessee    	0.526176	5-7	0.613872: 9	1	2	W: #10 Kentucky
+70. 	Hawaii    	0.524444	8-5	0.412820: 123	0	0	W: #66 San Diego St
+71. 	Baylor    	0.523815	6-6	0.527784: 56	0	0	W: #63 Oklahoma St
+72. 	South Florida    	0.519618	7-5	0.439554: 108	0	1	W: #46 Georgia Tech
+73. 	BYU    	0.516742	6-6	0.519532: 62	0	0	W: #53 Wisconsin
+74. 	Florida International    	0.512574	8-4	0.348004: 138	0	0	W: #54 Middle Tenn St
+75. 	Western Michigan    	0.511996	7-5	0.430662: 115	0	1	W: #48 Northern Illinois
+76. 	Nevada    	0.506357	7-5	0.424083: 119	0	0	W: #66 San Diego St
+77. 	Indiana    	0.502573	5-7	0.586335: 17	0	0	W: #56 Virginia
+78. 	East Michigan    	0.501679	7-5	0.418625: 121	0	0	W: #51 Purdue
+79. 	Maryland    	0.497894	5-7	0.580877: 22	1	1	W: #25 Texas
+80. 	Tulane    	0.495466	6-6	0.494710: 69	0	0	W: #60 Memphis
+81. 	Toledo    	0.494308	7-5	0.410026: 124	0	0	W: #75 W Michigan
+82. 	Miami (OH)    	0.492389	6-6	0.491120: 76	0	1	W: #48 Northern Illinois
+83. 	USC    	0.490306	5-7	0.572024: 27	1	1	W: #11 Washington St
+84. 	Mississippi    	0.476468	5-7	0.555879: 41	0	0	W: #85 LA Monroe
+85. 	Louisiana Monroe    	0.467408	6-6	0.461975: 90	0	1	W: #31 Georgia Southern
+86. 	Texas Tech    	0.465042	5-7	0.542548: 46	0	0	W: #61 TCU
+87. 	Kansas St    	0.464385	5-7	0.541783: 47	0	0	W: #63 Oklahoma St
+88. 	Louisiana Tech    	0.463562	7-5	0.374156: 136	0	0	W: #58 North Texas
+89. 	Wyoming    	0.459485	6-6	0.452733: 97	0	0	W: #99 Air Force
+90. 	Southern Miss    	0.443430	6-5	0.387690: 129	0	0	W: #57 Marshall
+91. 	Coastal Carolina    	0.435186	5-7	0.507717: 66	0	1	W: #38 UAB
+92. 	Nebraska    	0.427030	4-8	0.581536: 21	0	1	W: #41 Michigan St
+93. 	SMU    	0.422338	5-7	0.492727: 72	0	0	W: #65 Houston
+94. 	Arizona    	0.422154	5-7	0.492513: 73	0	1	W: #42 Oregon
+95. 	Colorado    	0.413857	5-7	0.482833: 81	0	1	W: #49 Arizona St
+96. 	Florida Atlantic    	0.413204	5-7	0.482071: 82	0	0	W: #74 Florida Intl
+97. 	UCLA    	0.406877	3-9	0.641356: 1	0	0	W: #59 California
+98. 	Liberty    	0.396437	6-6	0.379176: 132	0	1	W: #34 Troy
+99. 	Air Force    	0.372183	5-7	0.434213: 113	0	0	W: #103 Navy
+100. 	Charlotte    	0.371737	5-7	0.433693: 114	0	0	W: #90 Southern Miss
+101. 	Massachusetts    	0.338219	4-8	0.477922: 84	0	0	W: #98 Liberty
+102. 	Illinois    	0.336545	4-8	0.475969: 87	0	0	W: #62 Minnesota
+103. 	Navy    	0.320562	3-9	0.540656: 49	0	0	W: #60 Memphis
+104. 	Akron    	0.316670	4-8	0.452782: 96	0	1	W: #29 Northwestern
+105. 	Louisville    	0.316160	2-10	0.618854: 8	0	0	W: #126 West Kentucky
+106. 	Ball St    	0.313393	4-8	0.448959: 100	0	0	W: #75 W Michigan
+107. 	Kansas    	0.293643	3-9	0.509251: 65	0	0	W: #61 TCU
+108. 	UNLV    	0.287442	4-8	0.418682: 120	0	0	W: #66 San Diego St
+109. 	South Alabama    	0.283695	3-9	0.497644: 68	0	0	W: #91 Coastal Carolina
+110. 	Arkansas    	0.275593	2-10	0.571525: 30	0	0	W: #116 Tulsa
+111. 	East Carolina    	0.273854	3-9	0.486163: 78	0	0	W: #113 North Carolina
+112. 	Oregon St    	0.269558	2-10	0.564485: 35	0	0	W: #95 Colorado
+113. 	North Carolina    	0.266103	2-9	0.541759: 48	0	1	W: #37 Pittsburgh
+114. 	FCS GROUP 6    	0.262030	2-11	0.571573: 29	0	1	n/a
+115. 	Old Dominion    	0.252500	4-8	0.377917: 133	0	0	W: #58 North Texas
+116. 	Tulsa    	0.238113	3-9	0.444465: 102	0	0	W: #93 SMU
+117. 	Georgia St    	0.234951	2-10	0.524110: 60	0	0	W: #85 LA Monroe
+118. 	Colorado St    	0.232616	3-9	0.438052: 110	0	0	W: #110 Arkansas
+119. 	New Mexico    	0.232406	3-9	0.437807: 112	0	0	W: #108 UNLV
+120. 	FCS GROUP 1    	0.229094	3-10	0.456646: 92	0	0	n/a
+121. 	UTSA    	0.224118	3-9	0.428138: 116	0	0	W: #125 Texas St
+122. 	Bowling Green    	0.222908	3-9	0.426726: 118	0	0	W: #104 Akron
+123. 	New Mexico St    	0.205950	3-9	0.406942: 125	0	0	W: #98 Liberty
+124. 	Rutgers    	0.205460	1-11	0.573037: 26	0	0	W: #125 Texas St
+125. 	Texas St    	0.202049	3-9	0.402391: 126	0	0	W: #117 Georgia St
+126. 	West Kentucky    	0.186121	3-9	0.383807: 131	0	0	W: #88 Louisiana Tech
+127. 	San Jose St    	0.165581	1-11	0.526511: 57	0	0	W: #108 UNLV
+128. 	FCS GROUP 5    	0.161501	0-12	0.605085: 10	0	0	n/a
+129. 	Kent St    	0.161092	2-10	0.437941: 111	0	0	W: #122 Bowling Green
+130. 	Connecticut    	0.154790	1-11	0.513922: 64	0	0	W: #135 FCS
+131. 	Rice    	0.147162	2-11	0.439033: 109	0	0	W: #115 Old Dominion
+132. 	FCS GROUP 4    	0.140230	1-10	0.483908: 80	0	0	n/a
+133. 	FCS GROUP 7    	0.126700	0-13	0.569270: 32	0	0	n/a
+134. 	Cent Michigan    	0.108727	1-11	0.460182: 91	0	0	W: #120 FCS
+135. 	FCS GROUP 3    	0.102404	1-11	0.452805: 95	0	0	n/a
+136. 	FCS GROUP 8    	0.099483	0-13	0.537866: 53	0	0	n/a
+137. 	FCS GROUP 2    	0.049176	0-13	0.479819: 83	0	0	n/a
+138. 	UTEP    	0.036672	1-11	0.376118: 134	0	0	W: #131 Rice
+139. 	FCS GROUP 9    	0.021419	0-12	0.441655: 105	0	0	n/a

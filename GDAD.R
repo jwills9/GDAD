@@ -290,8 +290,9 @@ BowlData <- bind_rows(NewBowls2018,NewBowls2017,NewBowls2016,NewBowls2015)
 
 
 
-
-
+#### Creating the model ############################################################################
+## The data is always team1stat/team2stat and it predicts the probability that team 1 is the winner
+## A result of 1 means team 1 is the winnner and a result of 0 means team 2 is the winner.
 
 BowlData <- mutate(BowlData, OpointsRatio = as.numeric(OPointsPG1) / as.numeric(OPointsPG2), DPointsRatio = as.numeric(DPointsPG1) / as.numeric(DPointsPG2) , OYPPRatio = as.numeric(OYPP1) / as.numeric(OYPP2), DYPPRatio = as.numeric(DYPP1) / as.numeric(DYPP2), TOPdiff = as.numeric(TOPG1) - as.numeric(TOPG2), colleyRatio = as.numeric(colley1) / as.numeric(colley2) , TOP50Diff = as.numeric(top501) - as.numeric(top502)) 
 
@@ -301,9 +302,90 @@ inTrain <- createDataPartition(y=FinalBowlData1$Result, p=0.8, list=F)
 training <- FinalBowlData1[inTrain,] 
 testing <- FinalBowlData1[-inTrain,]
 
-BowlModel1 <- glm(Result ~ OpointsRatio + DPointsRatio  +OYPPRatio + DYPPRatio + TOPdiff +  colleyRatio + TOP50Diff ,family=binomial(link=logit), data=training)
+BowlModel1 <- glm(Result ~ OpointsRatio + DPointsRatio  +OYPPRatio + DYPPRatio + TOPdiff +  colleyRatio + TOP50Diff ,family=binomial, data=training)
 
 summary(BowlModel1)
 round(exp(coef(BowlModel1)),digits=2)
 
+## Testing The Model #############################################################################
+guess <- (1:30)
+testingreslts <- select(testing, Result)
+correct <- (1:30)
+# resultguess <- (1:30)
+for (i in 1:30) {
 
+profile.1 <- data.frame(OpointsRatio = testing[i,1], DPointsRatio = testing[i,2], OYPPRatio = testing[i,3], DYPPRatio = testing[i,4], TOPdiff = testing[i,5],  colleyRatio = testing[i,6], TOP50Diff = testing[i,7])
+
+guess[i] <- as.numeric(predict(BowlModel1,newdata = profile.1,
+                                 type="response",se.fit=TRUE)[1])
+
+if (guess[i] < 0.5){
+  
+  guess[i] <- 0
+}
+else{
+  guess[i] <- 1
+}
+
+
+if (guess[i] == testingreslts[i,1]){
+  
+  correct[i] <- 1
+}
+else{
+  correct[i] <- 0
+}
+
+
+
+}
+
+percentcorrect <- (sum(correct)/30)*100
+
+cat(" Percent Predicted Correctly  =",percentcorrect,"%","\n")
+
+
+
+###### Does Defense Win Championships? #############################################
+DPRrange <- range(FinalBowlData1[,2])
+DPR <- seq(DPRrange[1], DPRrange[2], 0.01)
+D.probs <- matrix(NA,164,4)
+
+for(i in 1:164){
+  profile.D <- with(FinalBowlData1,
+                     data.frame(OpointsRatio = mean(FinalBowlData1[,1]), 
+                                DPointsRatio =DPR[i], 
+                                OYPPRatio = mean(FinalBowlData1[,3]),
+                                DYPPRatio = mean(FinalBowlData1[,4]),
+                                TOPdiff = mean(FinalBowlData1[,5]), 
+                                colleyRatio = mean(FinalBowlData1[,6]),
+                                TOP50Diff = mean(FinalBowlData1[,7])))
+  
+  D.prob <- as.numeric(predict(BowlModel1,newdata = profile.D,
+                                type="response",se.fit=TRUE)[1])
+  D.prob.se <- as.numeric(predict(BowlModel1,newdata = profile.D,
+                                   type="response",se.fit=TRUE)[2])
+  D.prob.ci <- c(D.prob,D.prob-1.96*D.prob.se,
+                  D.prob+1.96*D.prob.se)
+  D.probs[i,] <- c(DPR[i],D.prob.ci)
+}
+### Plotting the DpointsRatio Probabilities #######################################
+par(mar = c(4, 5, .1, .1))
+plot(D.probs[,1], D.probs[,2], type = "n",
+     ylim = c(-.025, 1.025), xlab = "",
+     ylab = "", axes = FALSE)
+lines(D.probs[,1], D.probs[,2], lwd = 4, lty = 1, col="red") 
+lines(D.probs[,1], D.probs[,3], lwd = 2, lty = 2, col="blue")
+lines(D.probs[,1], D.probs[,4], lwd = 2, lty = 2, col="blue")
+title(ylab = expression("Predicted Prob. of Team 1 Winning"),
+      line = 3.5, cex.lab = .8)
+title(xlab = expression("Defensive Points Ratio (Team1 Scoring Defense/Team2 scoring Defense)"),
+      line = 2.75, cex.lab = .8)
+axis(1, at=seq(0,2,0.1),las=2,cex.axis=.8)
+axis(2, at = seq(0, 1, .1), las = 2, cex.axis = .8)
+box()
+rug(jitter(FinalBowlData1[,2], factor=4), ticksize = .015)
+legend("topleft", bty = "n", 
+       c(expression("Point Est."), 
+         expression("95% CI")),
+       col=c("red","blue"), lty = c(1, 2), lwd = c(4, 2), cex = .8)
